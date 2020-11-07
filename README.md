@@ -15,6 +15,9 @@ By **Fu Bowen**
 
 Add `_init_paths` and update lib import
 
+Update metrics: ADD, ADI, etc  
+Choose different metrics in `eval_bop19.py` after line 21
+
 ## Installation
 
 ### Python Dependencies
