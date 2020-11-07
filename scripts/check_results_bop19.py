@@ -6,9 +6,10 @@
 import os
 import argparse
 
-from bop_toolkit_lib import config
-from bop_toolkit_lib import inout
-from bop_toolkit_lib import misc
+import _init_paths
+import config
+import inout
+import misc
 
 
 # PARAMETERS (some can be overwritten by the command line arguments below).

@@ -8,8 +8,8 @@ import os
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-from bop_toolkit_lib import inout
-from bop_toolkit_lib import misc
+import inout
+import misc
 
 
 def draw_rect(im, rect, color=(1.0, 1.0, 1.0)):

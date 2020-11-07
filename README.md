@@ -8,6 +8,12 @@ A Python toolkit of the BOP benchmark for 6D object pose estimation
 - **docs** - Documentation and conventions.
 - **scripts** - Scripts for evaluation, rendering of training images,
   visualization of 6D object poses etc.
+  
+## Update
+
+By **Fu Bowen**
+
+Add `_init_paths` and update lib import
 
 ## Installation
 

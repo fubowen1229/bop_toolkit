@@ -6,7 +6,7 @@
 import numpy as np
 from collections import defaultdict
 
-from bop_toolkit_lib import misc
+import misc
 
 
 def calc_ap(rec, pre):

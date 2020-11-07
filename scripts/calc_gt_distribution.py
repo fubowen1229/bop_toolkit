@@ -7,10 +7,11 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-from bop_toolkit_lib import config
-from bop_toolkit_lib import dataset_params
-from bop_toolkit_lib import inout
-from bop_toolkit_lib import misc
+import _init_paths
+import config
+import dataset_params
+import inout
+import misc
 
 
 # PARAMETERS.

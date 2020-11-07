@@ -90,11 +90,11 @@ def create_renderer(width, height, renderer_type='cpp', mode='rgb+depth',
   :return: Instance of a renderer of the specified type.
   """
   if renderer_type == 'python':
-    from . import renderer_py
+    import renderer_py
     return renderer_py.RendererPython(width, height, mode, shading, bg_color)
 
   elif renderer_type == 'cpp':
-    from . import renderer_cpp
+    import renderer_cpp
     return renderer_cpp.RendererCpp(width, height)
 
   else:

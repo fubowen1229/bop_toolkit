@@ -7,9 +7,9 @@ import os
 import numpy as np
 from glumpy import app, gloo, gl
 
-from bop_toolkit_lib import inout
-from bop_toolkit_lib import misc
-from bop_toolkit_lib import renderer
+import inout
+import misc
+import renderer
 
 # Set glumpy logging level.
 from glumpy.log import log

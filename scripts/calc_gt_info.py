@@ -13,12 +13,13 @@ import os
 import glob
 import numpy as np
 
-from bop_toolkit_lib import config
-from bop_toolkit_lib import dataset_params
-from bop_toolkit_lib import inout
-from bop_toolkit_lib import misc
-from bop_toolkit_lib import renderer
-from bop_toolkit_lib import visibility
+import _init_paths
+import config
+import dataset_params
+import inout
+import misc
+import renderer
+import visibility
 
 
 # PARAMETERS.
